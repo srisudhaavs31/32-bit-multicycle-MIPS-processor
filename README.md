@@ -1,1 +1,3 @@
 # 32-bit-multicycle-MIPS-processor
+This project implements a 32-bit multicycle MIPS processor using Verilog HDL, following the standard five-stage architecture: Instruction Fetch, Decode, Execute, Memory Access, and Write-back. A finite state machine (FSM)-based controller manages control flow across clock cycles. Key modules include the ALU, Register File, Control Unit, Sign Extender, Program Counter logic, and Memory. All components were verified using custom testbenches. The processor supports instructions like add, sub, and, or, addi, lw, sw, beq, and j, and executes them correctly across multiple cycles with shared datapath resources.
+
